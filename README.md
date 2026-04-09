@@ -14,3 +14,8 @@ Página dedicada a un videojuego que me guste, con información básica.
 
 Practicar las etiquetas básicas de HTML aprendidas, incluyendo títulos,
 párrafos, listas, imágenes y links.
+
+## Actualizaciones
+
+08/04/2026
+Luego de definir la estructura de el html pude aprender etiquetas semanticas y las aplique al el codigo, con el fin de saber mejores practicas.
