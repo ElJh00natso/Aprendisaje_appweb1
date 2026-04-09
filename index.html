@@ -3,36 +3,139 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Mi primera pagina web</title>
   </head>
   <body>
-    <header>
-      <h1>Yakuza 0</h1>
-      <img src="Imagenes/Yakuza0.jpg" alt="imagen de videojuego Yakuza" />
+    <header class="header">
+      <h1 class="header-h1">Yakuza 0</h1>
+      <img
+        class="header-img"
+        src="Imagenes/Yakuza0.jpg"
+        alt="imagen de videojuego Yakuza"
+      />
     </header>
     <main>
-      <section>
-        <h2>Detalle general</h2>
-        <p>
-          Yakuza 0 es una precuela de acción y aventura ambientada en el Japón
-          de 1988 (época de la burbuja económica), que narra los orígenes de
-          Kazuma Kiryu y Goro Majima. Mezcla una trama criminal dramática y
-          seria con combates beat 'em up intensos y un sinfín de minijuegos y
-          actividades secundarias absurdas en los distritos de Tokio y Osaka.
-        </p>
+      <section class="detalle-general">
+        <h2 class="titulo-principal">historia</h2>
+        <div class="imagen-texto">
+          <img
+            src="Imagenes/yakuza0director.jpg"
+            alt="imagen de videojuego"
+            class="imagen-general"
+          />
+
+          <p class="parrafo-principal">
+            Yakuza 0 es una precuela de acción y aventura ambientada en el Japón
+            de 1988 (época de la burbuja económica), que narra los orígenes de
+            Kazuma Kiryu y Goro Majima. Mezcla una trama criminal dramática y
+            seria con combates beat 'em up intensos y un sinfín de minijuegos y
+            actividades secundarias absurdas en los distritos de Tokio y Osaka.
+          </p>
+
+          <p class="parrafo-principal">
+            Esta ambientado en diciembre de 1988 durante la burbuja económica
+            japonesa, narra los orígenes de Kazuma Kiryu y Goro Majima. Kiryu,
+            un joven yakuza de la familia Dojima en Kamurocho, es inculpado por
+            un asesinato en un misterioso "lote baldío", mientras Majima busca
+            redimirse en Sotenbori. Ambos se ven envueltos en una conspiración
+            por el control de dicho terreno.
+          </p>
+        </div>
       </section>
-      <section>
-        <h2>Lo mejor de el juego</h2>
-        <ul>
-          <li>Historia y Personajes: Considerada de las mejores de la saga</li>
-          <li>
-            Combate Dinámico: Incluye múltiples estilos de lucha para cada
-            personaje
-          </li>
-          <li>Contraste de Tono (Drama/Comedia)</li>
-          <li>Actividades Secundarias</li>
-        </ul>
+      <section class="caracteristicas">
+        <!--aqui agrege las caracteristicas de el juego pero no se si es buena
+        practica crear otra seccion para presentar a los protagonistas por lo
+        que lo hare aqui mismo-->
+        <h2 class="h2-fieldblanco">Lo mejor de el juego</h2>
+        <div class="imagen-texto">
+          <img src="Imagenes/logo.jfif" alt="logo de el videojuego yakuza" />
+          <ul class="caracteristicas-juego">
+            <li>
+              Historia y Personajes: Considerada de las mejores de la saga
+            </li>
+            <li>
+              Combate Dinámico: Incluye múltiples estilos de lucha para cada
+              personaje
+            </li>
+            <li>Contraste de Tono (Drama/Comedia)</li>
+            <li>Actividades Secundarias</li>
+          </ul>
+        </div>
       </section>
+      <h2 class="titulo-principal">¿Quienes son nuestros protagonisas?</h2>
+      <section class="caracteristicas">
+        <!--Presentacion de protagonistas-->
+        <div class="imagen-texto">
+          <img
+            src="Imagenes/kiryu.png"
+            class="imagen-presentacion"
+            alt="imagen de kiryu kazuma"
+          />
+          <div class="presentacion">
+            <h2 class="presentacion-h2">Kazuma Kiryu</h2>
+            <p class="parrafo-principal">
+              Kazuma Kiryu es el icónico protagonista principal de la saga de
+              videojuegos de acción Yakuza / Like a Dragon de SEGA. Conocido
+              como el "Dragón de Dojima" por su tatuaje y fuerza, es un
+              ex-yakuza legendario respetado por su estricto código de honor,
+              justicia y protección a los indefensos.
+            </p>
+            <ul>
+              <li>
+                <p class="parrafo-principal">
+                  Rol en la saga: Protagonista principal en Yakuza 0-6 y figura
+                  clave en entregas posteriores (como Gaiden y Like a Dragon 8).
+                </p>
+              </li>
+              <li>
+                <p class="parrafo-principal">
+                  Trasfondo: Creció en un orfanato y ascendió en la Familia
+                  Dojima del Clan Tojo, llegando a ser su cuarto presidente.
+                </p>
+              </li>
+              <li>
+                <p class="parrafo-principal">
+                  Personalidad: A pesar de su pasado violento, es bondadoso,
+                  noble y actúa como figura paterna para muchos, especialmente
+                  en el orfanato Morning Glory que gestionó.
+                </p>
+              </li>
+              <li>
+                <p class="parrafo-principal">
+                  Apodos: El Dragón de Dojima, Dragón Legendario, Joryu (nombre
+                  en clave).
+                </p>
+              </li>
+              <li>
+                <p class="parrafo-principal">
+                  Estilo de lucha: Conocido por su estilo directo, "Dragon of
+                  Dojima", que utiliza técnicas de lucha callejera y fuerza
+                  bruta.
+                </p>
+              </li>
+            </ul>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <section class="caracteristicas">
+        <div class="imagen-texto">
+          <h2 class="presentacion-h2">Goro Majima</h2>
+          <div class="presentacion">
+            <p class="parrafo-principal">
+              Goro Majima es uno de los personajes principales y más icónicos de
+              la saga de videojuegos Like a Dragon (anteriormente Yakuza),
+              reconocido como el "Perro Loco de Shimano". Es un ejecutivo del
+              Clan Tojo, caracterizado por su personalidad caótica, impredecible
+              y violenta, aunque a menudo actúa como antihéroe y aliado clave
+              del protagonista Kazuma Kiryu.
+            </p>
+          </div>
+          <img src="Imagenes/goromajima.jpg" class="imagen-presentacion" />
+        </div>
+      </section>
+
       <section>
         <h2>Historia</h2>
         <p>

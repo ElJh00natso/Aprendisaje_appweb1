@@ -1,0 +1,107 @@
+/*Aqui colocare mis diseños*/
+/*puse esto aqui en el body porque em daban espacios en blanco*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(238, 238, 238);
+  align-items: center;
+  /*Como se van a desplegar los hijos*/
+  display: flex;
+  /*Uno abajo de el otro, si quisiera uno al lado de el otro tendria que poner row*/
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  margin: 0;
+}
+.header-h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+.header-img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400x;
+  margin: 20px;
+  /*
+  max-width: 50%;
+  max-height: 50%;
+  */
+  border: 2px solid;
+  border-color: black;
+}
+
+main {
+  background-color: black;
+}
+
+.detalle-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.titulo-principal {
+  padding: 50px 0 0 0;
+  font-size: 75px;
+  /*le agrege el color blanco para utilizar este diseño en mas h2*/
+  color: white;
+}
+.parrafo-principal {
+  font-size: 20px;
+  padding: 0 20px 0 20px;
+}
+.imagen-texto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*espacio entre la imagen y el texto*/
+  gap: 10px;
+}
+.imagen-general {
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+/*Caracteristicas que lo hacen bueno*/
+.caracteristicas {
+  background-color: white;
+  margin: 50px;
+  gap: 10px;
+  border-radius: 5%;
+}
+.h2-fieldblanco {
+  color: rgb(2, 1, 1);
+  font-size: 50px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.caracteristicas-juego {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+  margin-bottom: 20px;
+}
+.imagen-presentacion {
+  margin-left: 20px;
+  padding: 5px 30px;
+  width: 300px;
+}
+.presentacion {
+  display: flex;
+  flex-direction: column;
+}
+.presentacion-h2 {
+  font-size: 30px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  margin-left: 20px;
+}
